@@ -40,7 +40,7 @@ return (
                     Age: {person.age}
                   </Typography>
                   <Typography variant="body2">
-                    {/* <img src={person.image} alt={person.name} style={{ width: '100%' ,height:'12px' }} /> */}
+                    <img src={person.image} alt={person.name} style={{ width: '100%' ,height:'200px',borderRadius:'50%' }} />
                   </Typography>
                 </CardContent>
                 <CardActions>
