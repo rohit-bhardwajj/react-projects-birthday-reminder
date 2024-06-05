@@ -2,16 +2,19 @@ import React, { useState } from 'react';
 import './index.css';
 import data from './data';
 import List from './List';
+import BirthdayFilter from './BirthdayFilter';
 function App() {
-  const [people,setpeople] = useState(data);
+  const [people,setpeople] = useState([]);
+  
   return (
      <main>
-      <section class='container'>
+      {/* <section className='container'>
         <h4>{people.length} Birthdays now</h4>
-      <List people={people}/>
-      <button onClick={()=>setpeople([])}>Clear All</button>
-      </section>
-
+      
+      <button onClick={()=>setpeople()}>Clear All</button>
+      </section> */}
+        {/* <List/> */}
+        <BirthdayFilter/>
      </main>
   )
 }

@@ -26,7 +26,7 @@ export default [
         image:
         'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg',
         
-        dob:'02-03-2000',
+        dob:'2-5-2000',
     },
     {
         id: 4,
@@ -46,7 +46,7 @@ export default [
       image:
         'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
 
-        dob:'02-03-2000',
+        dob:'05-06-2000',
     },
     {
         id:5,
@@ -55,6 +55,6 @@ export default [
         image:
         'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
 
-        dob:'02-03-2000',
+        dob:'05-06-2024',
     },
   ];
